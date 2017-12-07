@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.WmUserMoneyMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.WmUserMoney">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="total_fund" jdbcType="DECIMAL" property="totalFund" />
+    <result column="usable_fund" jdbcType="DECIMAL" property="usableFund" />
+    <result column="freeze_fund" jdbcType="DECIMAL" property="freezeFund" />
+    <result column="account_fund" jdbcType="DECIMAL" property="accountFund" />
+    <result column="infreeze_fund" jdbcType="DECIMAL" property="infreezeFund" />
+    <result column="updated" jdbcType="TIMESTAMP" property="updated" />
+    <result column="tfdeal" jdbcType="INTEGER" property="tfdeal" />
+  </resultMap>
+</mapper>
